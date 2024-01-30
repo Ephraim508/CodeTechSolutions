@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background: #001e4d;
+        }
+        .app{
+            background: #fff;
+            width: 90%;
+            max-width: 800px;
+            margin: 100px auto 0;
+            border-radius: 10px;
+            padding: 30px;
+            }
+            .app h1{
+                font-size: 50px;
+            font-family: 'Times New Roman', Times, serif;
+            margin-bottom: 5px;
+            border-bottom: 1px solid black;
+            padding-bottom: 10px;
+            }
+            .quiz{
+                padding: 10px 0;
+            }
+            .quiz h2{
+                font-size: 35px;
+            font-family: 'Times New Roman', Times, serif;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            }
+            .btn{
+                background: #fff;
+                color: #222;
+                font-weight: 500;
+                height: 60px;
+                width: 100%;
+                border: 1px solid #222;
+                padding: 15px;
+                font-size: 20px;
+                font-family: 'Times New Roman', Times, serif;
+                margin: 10px 0;
+                text-align: left;
+                border-radius: 8px;
+                cursor: pointer;
+                transition: all 0.5s;
+            }
+            .btn:hover:not([disabled]){
+                background: #222;
+                color: #fff;
+            }
+            .btn:disabled{
+                cursor: no-drop;
+            }
+            #next-btn{
+                height: 60px;
+                width: 250px;
+            font-size: 27px;
+            background-color: rgb(31, 95, 31);
+            color: white;
+            font-family: 'Times New Roman', Times, serif;
+            border-radius: 8px;
+            font-weight: 500;
+            border: none;
+            margin: 20px auto 0;
+            cursor: pointer;
+            display:  none;
+
+            }
+            .correct{
+            background: #9aeabc;
+            border: #dffff2;
+        }
+        .incorrect{
+            background: #ff9393;
+            border: #FFEBEB;
+        }
+    </style>
+</head>
+<body>
+    <div class="app">
+        <h1 >Quiz App</h1>
+        <div class="quiz">
+            <h2 id="question">Which device is required for the Internet connection?</h2>
+            <div id="answer-buttons">
+                <button class="btn">Answer1</button>
+                <button class="btn">Answer2</button>
+                <button class="btn">Answer3</button>
+                <button class="btn">Answer4</button>
+            </div>
+            <button id="next-btn">Next</button>
+ 
+         </div>
+    </div>
+    <script src="quiz.js"></script>
+</body>
+</html>

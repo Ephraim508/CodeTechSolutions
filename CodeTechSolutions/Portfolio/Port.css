@@ -1,0 +1,336 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+   
+    background-color:  #5a7184;
+}
+.navbar{
+    top: 0;
+    left: 0;
+    position: fixed;
+    width:100%;
+    height: 120px;
+    background-color: #222544;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+    
+    
+}
+.navbar .logo{
+    color: #2d9cca;
+    font-size: 32px;
+    border: 1px solid white;
+    font-family:'Times New Roman', Times, serif ;
+    padding: 8px;
+    background-color: white;
+    border-top-right-radius: none;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    transition: 0.5s;
+    border: none;
+}
+.navbar .logo:hover{
+    background-color: #2d9cca;
+    color: white;
+}
+
+.navbar .lists{
+   margin-right: 30px;
+
+}
+.navbar .lists ul{
+    display: flex;
+    list-style: none;
+}
+.navbar .lists ul li a{
+    text-decoration: none;
+    color: white;
+   
+    margin-left: 60px;
+    font-size: 30px;
+    color: white;
+   
+    padding: 10px;
+    border-radius: 8px;
+    font-family: 'Times New Roman', Times, serif;
+    transition: 0.5s;
+}
+
+
+.navbar .lists ul li a:hover{
+border: 1px solid white;
+   
+} 
+.home{
+    top: 0;
+    display: flex;
+    gap: 10px;
+    margin-left: 15%;
+    padding-top: 10%;
+   
+}
+.homeleft{
+    
+    width: 40%;
+}
+.homeright{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 60%;
+}
+.nameHeading{
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.name{
+    color: red;
+    font-size: 70px;
+    font-family:serif ;
+}
+.profission{
+    color: #f1b80b;
+    font-size: 55px;
+    font-weight: bold;
+    font-family: Roboto;
+    margin-top: 10px;
+
+} 
+.desc{
+    margin-top: 10px;
+    font-size: 25px;
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.resume{
+    margin-top: 50px;
+    display: flex;
+   
+}
+.resume .download{
+    padding: 10px;
+    background-color:  #f1b80b;
+    color: white;
+    border: none;
+    height: 70px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.resume .download:hover{
+    color: #f1b80b;
+    background-color: white;
+}
+.resume .hire{
+    margin-left: 10px;
+    padding: 10px;
+    
+    color: white;
+    border: none;
+    height: 70px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 4px solid #f1b80b;
+    background-color: transparent;
+    transition: 0.5s;
+}
+.resume .hire:hover{
+    border: 4px solid red;
+    color: #f1b80b;
+}
+.image{
+    height: 50%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;;
+    border-radius: 50%;
+    transition: 0.5s;
+   
+}
+.image:hover{
+    margin-bottom: -40px;
+}
+.aboutMe{
+    display: flex;
+   
+    margin-left: 10%;
+    margin-top: -5%;
+}
+.aboutleft{
+    
+      width: 50%;
+      display: flex;
+      justify-content: center;
+      
+
+}
+.aboutleft .aboutImg{
+    border: 5px solid white;
+    width: 55%;
+    height: 550px;
+    transition: 0.5s;
+   
+}
+.aboutleft .aboutImg:hover{
+    border: 5px solid red;
+    transform: scale(0.9);
+   
+}
+.aboutright{
+    width: 45%;
+   
+    
+}
+.aboutright .aboutHeading{
+    font-size: 65px;
+}
+.aboutright .aboutHeading .me{
+    font-size: 55px;
+    color: #a83277;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.aboutDes{
+    margin-top: 20px;
+    font-size: 30px;
+    font-family: cursive;
+    font-weight: bold;
+    
+}
+.more{
+    margin-top: 20px;
+    padding: 10px;
+    background-color:  #a83277;
+    color: white;
+    border: none;
+    height: 70px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.more:hover{
+    color: #a83277;
+    background-color: white;
+}
+
+.skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    margin-top: 10%;
+   
+    text-align: center;
+}
+.skills .skillheading{
+    font-size: 55px;
+    font-family: 'Times New Roman', Times, serif;
+   text-decoration: underline white;
+   margin-bottom: 20px;
+
+}
+.skilldetails{
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-wrap: wrap;
+    width: 5 0%;
+   
+     
+}
+.skillDes{
+   
+    width: 600px;
+    height: 400px;
+   
+    margin: 20px 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.skillImg{
+    width: 150px;
+    mix-blend-mode: color-burn;
+}
+.headingSkill{
+    font-size: 40px;
+
+}
+.skilldescription{
+    font-family: cursive;
+ font-size: 20px;
+ margin-top: 10px;
+}
+
+.projects{
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+.projectHeading{
+    font-size: 50px;
+    text-decoration: underline  #a232a8;
+    margin: 20px 0px;
+
+}
+.allProjects{
+    width: 50%;
+   
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.project1{
+    width: 35%;
+    background-color:black;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-left: 10%;
+    border-top: 5px solid #00ffff
+}
+.p1Img{
+    
+    color: white;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    margin-bottom: 20px;
+}
+.p1Heading{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.p1Des{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
